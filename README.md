@@ -1,22 +1,33 @@
-# @oclif/plugin-update
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# plugin-update
 
-[![Version](https://img.shields.io/npm/v/@oclif/plugin-update.svg)](https://npmjs.org/package/@oclif/plugin-update)
-[![Downloads/week](https://img.shields.io/npm/dw/@oclif/plugin-update.svg)](https://npmjs.org/package/@oclif/plugin-update)
-[![License](https://img.shields.io/npm/l/@oclif/plugin-update.svg)](https://github.com/oclif/plugin-update/blob/main/package.json)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/plugin-update)
 
-<!-- toc -->
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-- [@oclif/plugin-update](#oclifplugin-update)
-- [Usage](#usage)
-- [Commands](#commands)
-- [Contributing](#contributing)
-<!-- tocstop -->
+## Architecture
 
-# Usage
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-See https://oclif.io/docs/releasing.html#autoupdater
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/plugin-update.git
+cd plugin-update
+```
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
 ## Configuration
+
 
 ### Update Check Interval
 
@@ -47,46 +58,46 @@ If not configured, the plugin defaults to:
 
 - [`oclif-example update [CHANNEL]`](#oclif-example-update-channel)
 
-## `oclif-example update [CHANNEL]`
+## CI
 
-update the oclif-example CLI
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/plugin-update`](https://github.com/Interested-Deving-1896/plugin-update) and mirrored through:
 
 ```
-USAGE
-  $ oclif-example update [CHANNEL] [--force |  | [-a | -v <value> | -i]] [-b ]
-
-FLAGS
-  -a, --available        See available versions.
-  -b, --verbose          Show more details about the available versions.
-  -i, --interactive      Interactively select version to install. This is ignored if a channel is provided.
-  -v, --version=<value>  Install a specific version.
-      --force            Force a re-download of the requested version.
-
-DESCRIPTION
-  update the oclif-example CLI
-
-EXAMPLES
-  Update to the stable channel:
-
-    $ oclif-example update stable
-
-  Update to a specific version:
-
-    $ oclif-example update --version 1.0.0
-
-  Interactively select version:
-
-    $ oclif-example update --interactive
-
-  See available versions:
-
-    $ oclif-example update --available
+Interested-Deving-1896/plugin-update  ──►  OpenOS-Project-OSP/plugin-update  ──►  OpenOS-Project-Ecosystem-OOC/plugin-update
 ```
 
-_See code: [src/commands/update.ts](https://github.com/oclif/plugin-update/blob/4.7.19/src/commands/update.ts)_
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-<!-- commandsstop -->
+## Contributors
 
-# Contributing
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-See [contributing guide](./CONRTIBUTING.md)
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/plugin-update/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
